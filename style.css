@@ -193,7 +193,7 @@ header {
 
 .header-frames {
   position: absolute;
-  top: 100vh;
+  top: 105vh;
   left: 13vw;
 }
 .header-frame{
@@ -231,8 +231,9 @@ header {
   gap: 4%;
 }
 
-.about-left{
-  position: relative;
+.about-left {
+	position: relative;
+	top: -6rem;
 }
 
 .about-image-bg{
@@ -253,16 +254,15 @@ header {
   filter: saturate(0) brightness(0.5);
   transition: var(--transition);
 }
-.about-image-md{
-  width: 22rem;
-  height: 22rem;
-  position: absolute;
-  left: 15rem;
-  top: 8rem;
-  overflow: hidden;
-  box-shadow: 2rem 2rem 2rem rgba( 0 0 0 / 0.2);
-  transition: var(--transition);
-  
+.about-image-md {
+	width: 22rem;
+	height: 22rem;
+	position: absolute;
+	left: 16rem;
+	top: 24rem;
+	overflow: hidden;
+	box-shadow: 2rem 2rem 2rem rgba( 0 0 0 / 0.2);
+	transition: var(--transition);
 }
 .about-left:hover .about-image-md {
   opacity: 0;
@@ -276,8 +276,8 @@ header {
   left: 0;
 }
 
-.about-right{
-  margin-left: 5rem;
+.about-right {
+	margin-left: 8rem;
 }
 .about-title{
   margin-bottom: 3rem;
@@ -383,5 +383,6 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 5rem;
+  text-align: center;
 }
 
